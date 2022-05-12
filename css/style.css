@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+div.cover {
+    background: url(../img/cover_overlay.png) no-repeat center/100% 100%,url(../img/cover.jpg) no-repeat center/cover;
+    height: 360px;
+    position: relative;
+}
+
+img.cover-profile {
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: 50px;
+    position: relative;
+    border: 2px #fff solid;
+    border-radius: 50px;    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    color: lightgray;
+    text-align: center;
+}
+
+div.cover-contact {
+    background-color: #ff000080;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-left: 4px solid #D89584;
+    padding-left: 8px;
+}
+
+div.cover-contact p {
+    text-align: left;
+}
+
+div.cover-contact * {
+    color: white;
+    font-size: 14;
+}
